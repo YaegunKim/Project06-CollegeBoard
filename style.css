@@ -1,0 +1,185 @@
+/**
+Basic Settings
+*/
+
+
+* {padding: 0; margin: 0 auto;}
+
+.Font01 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+}
+.Font02 {
+  font-family: 'Noto Sans KR', sans-serif; font-weight: 700; font-size: 13px;
+  color: #555;
+}
+i {
+  font-size: 30px;
+  color: #555;
+}
+
+
+
+/**
+Header Section from here
+*/
+
+header {
+  width: 100%; height: 100px;
+  background-color: #fff;
+  position: relative;
+}
+
+#WSU_logo {
+  width: 60px; height: 60px;
+  position: absolute; top: 50%; left: 5%; transform: translate(-50%, -50%);
+}
+#WSU_letter {
+  height: 40px;
+  position: absolute; top: 50%; left: 6%; transform: translate(25px, -50%);
+}
+#WSU_letter_ChrisPY {
+  font-weight: 700; font-size: 18px;
+}
+#WSU_letter_WSU {
+  font-size: 12px;
+}
+
+
+
+#Small_nav {
+  width: 300px; height: 20px;
+  float: right;
+  clear: both;
+  text-align: right;
+  /* background-color: lightblue; */
+  position: relative;
+}
+#Small_nav .Font01 {
+  position: absolute;
+}
+#Contact {
+  top: 70%; left: 8%;
+  transform: translate(-50%, -50%);
+}
+#Report {
+  top: 70%; left: 28%;
+  transform: translate(-50%, -50%);
+}
+#Info {
+  top: 70%; left: 48%;
+  transform: translate(-50%, -50%);
+}
+#Search_Tool {
+  top: 70%; left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+nav {
+  width: 60%; height: 70px; margin-top: 10px;
+  float: right;
+  /* background-color: lightgray; */
+  display: flex;
+  align-items: center;
+}
+.Nav {
+  text-align: center;
+}
+.Nav:hover {
+  color: #B60000;
+  cursor: pointer;
+}
+#Nav_button {
+  width: 8%; height: 70px; margin-top: 10px;
+  float: right;
+  clear: both;
+  display: flex; align-items: center;
+  margin-right: 60px;
+}
+
+
+
+/**
+Event Section from Here
+*/
+
+
+#events {
+  width: 100%; height: 3px;
+  background-color: #B60000;
+}
+
+
+/**
+Head Pic Section from Here
+*/
+
+
+#HeadPic {
+  width: 100%; height: 620px;
+  background-image: url(WSU_Football.jpg); background-position: center; background-size: 100%;
+  position: relative;}
+#box01 {
+  width:100%; height:620px;
+  background-color: black; opacity: 40%
+}
+#text {
+  position: absolute; text-align: center; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40px; text-shadow: 0 0 8px black;
+}
+#News {
+  width: 120px; height: 40px;
+  position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%);
+  background-color: orange; color: #fff;
+  border-radius: 8px; border: 0;
+}
+
+
+
+/**
+aside Section from Here
+*/
+
+aside {
+  width: 20%;height: 2000px;
+  background-color: rgb(236, 149, 149);
+  float: left;
+}
+
+
+
+
+/**
+Exp section from Here
+*/
+
+
+
+
+section {
+  width: 70%; height: 2000px;
+  background-color: gray;
+}
+
+
+
+
+
+
+/**
+Media section from Here
+*/
+
+
+@media (max-width: 1105px){
+  #WSU_logo {left: 30px;}
+  #WSU_letter {height: 30px; left: 130px; transform: translate(-50%, -50%); }
+  #HeadPic {background-size: cover;}
+}
+
+
+
+
